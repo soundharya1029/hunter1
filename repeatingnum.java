@@ -30,8 +30,13 @@ public class repeatingnum {
     	 }
     	 }
      }
-     for(int m=0;m<c;m++)
-     System.out.println(ch1[m]);
+	if(c>0)
+	{
+     	   for(int m=0;m<c;m++)
+           System.out.println(ch1[m]);
+	}
+		else 
+			System.out.println("No repeated numbers");
      
 	}
 
